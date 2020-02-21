@@ -18,7 +18,7 @@ In this repo I store some demo cases and helper scripts to use with [Dependency-
 
 ## Thanks
 
-I want to thank Steve Springett and the community for the work on Dependency-Track](https://dependencytrack.org/)
+I want to thank Steve Springett and the community for the work on [Dependency-Track](https://dependencytrack.org/)
 and [CycloneDX](https://cyclonedx.org/).
 
 
