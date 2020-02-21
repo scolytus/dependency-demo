@@ -26,8 +26,8 @@ yes '' | ng new "${NAME}"
 
 pushd "${NAME}"
 
-cyclonedx-bom    -o "../boms/${NAME}.bom"
-cyclonedx-bom -d -o "../boms/${NAME}_deps.bom"
+cyclonedx-bom    -o "../boms/${NAME}.bom.xml"
+cyclonedx-bom -d -o "../boms/${NAME}_deps.bom.xml"
 
 npm list > "../boms/${NAME}.npm_list.txt"
 
@@ -37,5 +37,5 @@ inf "Creating project '${NAME}'"
 createProject "${NAME}"
 
 inf "Uploading SBOM for project '${NAME}'"
-uploadBOM "boms/${NAME}_deps.bom" "$(cat "boms/${NAME}.uuid")"
+uploadBOM "boms/${NAME}_deps.bom.xml" "$(cat "boms/${NAME}.uuid")"
 
