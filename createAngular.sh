@@ -20,6 +20,10 @@ inf "checking directories"
 [[ -d "${NAME}" ]] && fatal "directory '${NAME}' already exists"
 [[ -d "./boms" ]] || mkdir "./boms"
 
+inf "updating ng command"
+
+./updateNgCli.sh
+
 inf "creating new Angular project '${NAME}'"
 
 CURRENT_LOG="$(mktemp -d)/${NAME}.log"
