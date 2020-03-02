@@ -28,6 +28,8 @@ yes '' | ng new "${NAME}" &> "${CURRENT_LOG}"
 
 inf "npm log can be found: ${CURRENT_LOG}"
 
+[[ -d "${NAME}" ]] || fatal "Something went wrong - directory not created"
+
 pushd "${NAME}" &> /dev/null
 
 inf "creating SBOMs"
