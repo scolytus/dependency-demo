@@ -1,7 +1,7 @@
 #!/bin/bash
 
-. configuration.sh
-. functions.sh
+. ./configuration.sh
+. ./functions.sh
 
 inf "starting '${0}'"
 
@@ -22,20 +22,30 @@ inf "checking directories"
 
 inf "creating new Angular project '${NAME}'"
 
-yes '' | ng new "${NAME}"
+CURRENT_LOG="$(mktemp -d)/${NAME}.log"
 
-pushd "${NAME}"
+yes '' | ng new "${NAME}" &> "${CURRENT_LOG}"
+
+inf "npm log can be found: ${CURRENT_LOG}"
+
+pushd "${NAME}" &> /dev/null
+
+inf "creating SBOMs"
 
 cyclonedx-bom    -o "../boms/${NAME}.bom.xml"
 cyclonedx-bom -d -o "../boms/${NAME}_deps.bom.xml"
 
+inf "creating NPM list"
+
 npm list > "../boms/${NAME}.npm_list.txt"
 
-popd
+popd &> /dev/null
 
-inf "Creating project '${NAME}'"
+inf "Creating DT project '${NAME}'"
 createProject "${NAME}"
 
-inf "Uploading SBOM for project '${NAME}'"
+inf "Uploading SBOM for project '${NAME}' to DT"
 uploadBOM "boms/${NAME}_deps.bom.xml" "$(cat "boms/${NAME}.uuid")"
+
+inf "DONE"
 
