@@ -10,7 +10,7 @@ fi
 
 pushd "$(mktemp -d)" &> /dev/null
 
-$SUDO /bin/bash -c "yes '' | npm install -g @angular/cli"
+$SUDO /bin/bash -c "yes '' | npm install -g @angular/cli &> /dev/null"
 
 popd &> /dev/null
 

@@ -19,10 +19,10 @@ checkJQ() {
 createProject() {
   checkJQ
 
-  RESPONSE=$(curl -v -X "PUT" "${DT_HOST}/api/v1/project" \
+  RESPONSE=$(curl -X "PUT" "${DT_HOST}/api/v1/project" \
      -H 'Content-Type: application/json' \
      -H "X-API-Key: ${DT_KEY}" \
-     -d "{\"name\":\"${1}\"}")
+     -d "{\"name\":\"${1}\"}" 2> /dev/null)
 
   UUID=$(echo "${RESPONSE}" | jq -r '.uuid' 2> /dev/null || true)
 
@@ -45,6 +45,6 @@ __HERE__
   curl -X "PUT" "${DT_HOST}/api/v1/bom" \
        -H 'Content-Type: application/json' \
        -H "X-API-Key: ${DT_KEY}" \
-       -d @"${FILE}"
+       -d @"${FILE}" &> /dev/null
 }
 
