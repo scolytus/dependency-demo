@@ -1,0 +1,258 @@
+<rdf:RDF
+    xmlns:spdx="http://spdx.org/rdf/terms#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:doap="http://usefulinc.com/ns/doap#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns="http://spdx.org/spdxpackages/dependency-demo-spring-boot-226-0.0.1-SNAPSHOT#">
+  <spdx:PackageVerificationCode>
+    <spdx:packageVerificationCodeValue>cf23df2207d99a74fbe169e3eba035e633b65d94</spdx:packageVerificationCodeValue>
+  </spdx:PackageVerificationCode>
+  <spdx:CreationInfo>
+    <spdx:licenseListVersion>2.5</spdx:licenseListVersion>
+    <spdx:created>2020-04-24T11:33:23Z</spdx:created>
+  </spdx:CreationInfo>
+  <spdx:SpdxDocument rdf:about="http://spdx.org/spdxpackages/dependency-demo-spring-boot-226-0.0.1-SNAPSHOT#SPDXRef-DOCUMENT">
+    <spdx:relationship>
+      <spdx:Relationship>
+        <spdx:relationshipType rdf:resource="http://spdx.org/rdf/terms#relationshipType_describes"/>
+        <spdx:relatedSpdxElement>
+          <spdx:Package rdf:about="http://spdx.org/spdxpackages/dependency-demo-spring-boot-226-0.0.1-SNAPSHOT#SPDXRef-1">
+            <spdx:name>dependency-demo-spring-boot-226</spdx:name>
+            <spdx:versionInfo>0.0.1-SNAPSHOT</spdx:versionInfo>
+            <spdx:relationship>
+              <spdx:Relationship>
+                <spdx:relationshipType rdf:resource="http://spdx.org/rdf/terms#relationshipType_testcaseOf"/>
+                <spdx:relatedSpdxElement>
+                  <spdx:Package rdf:about="http://spdx.org/spdxpackages/dependency-demo-spring-boot-226-0.0.1-SNAPSHOT#SPDXRef-8">
+                    <spdx:originator>Organization:Pivotal Software, Inc.</spdx:originator>
+                    <doap:homepage>https://projects.spring.io/spring-boot/#/spring-boot-parent/spring-boot-starters/spring-boot-starter-test</doap:homepage>
+                    <spdx:filesAnalyzed>true</spdx:filesAnalyzed>
+                    <spdx:downloadLocation>
+                      <spdx:noassertion rdf:about="http://spdx.org/rdf/terms#noassertion"/>
+                    </spdx:downloadLocation>
+                    <spdx:packageVerificationCode>
+                      <spdx:PackageVerificationCode>
+                        <spdx:packageVerificationCodeValue>cf23df2207d99a74fbe169e3eba035e633b65d94</spdx:packageVerificationCodeValue>
+                      </spdx:PackageVerificationCode>
+                    </spdx:packageVerificationCode>
+                    <spdx:versionInfo>2.2.6.RELEASE</spdx:versionInfo>
+                    <spdx:copyrightText>UNSPECIFIED</spdx:copyrightText>
+                    <spdx:summary>Starter for testing Spring Boot applications with libraries including
+		JUnit, Hamcrest and Mockito</spdx:summary>
+                    <spdx:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                    <spdx:description>Starter for testing Spring Boot applications with libraries including
+		JUnit, Hamcrest and Mockito</spdx:description>
+                    <spdx:licenseInfoFromFiles rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                    <spdx:name>Spring Boot Test Starter</spdx:name>
+                    <spdx:licenseDeclared rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                  </spdx:Package>
+                </spdx:relatedSpdxElement>
+                <rdfs:comment>Relationship based on Maven POM file dependency information</rdfs:comment>
+              </spdx:Relationship>
+            </spdx:relationship>
+            <spdx:relationship>
+              <spdx:Relationship>
+                <spdx:relationshipType rdf:resource="http://spdx.org/rdf/terms#relationshipType_dynamicLink"/>
+                <spdx:relatedSpdxElement>
+                  <spdx:Package rdf:about="http://spdx.org/spdxpackages/dependency-demo-spring-boot-226-0.0.1-SNAPSHOT#SPDXRef-6">
+                    <spdx:name>Spring Boot Web Starter</spdx:name>
+                    <spdx:summary>Starter for building web, including RESTful, applications using Spring
+		MVC. Uses Tomcat as the default embedded container</spdx:summary>
+                    <spdx:originator>Organization:Pivotal Software, Inc.</spdx:originator>
+                    <doap:homepage>https://projects.spring.io/spring-boot/#/spring-boot-parent/spring-boot-starters/spring-boot-starter-web</doap:homepage>
+                    <spdx:versionInfo>2.2.6.RELEASE</spdx:versionInfo>
+                    <spdx:packageVerificationCode>
+                      <spdx:PackageVerificationCode>
+                        <spdx:packageVerificationCodeValue>cf23df2207d99a74fbe169e3eba035e633b65d94</spdx:packageVerificationCodeValue>
+                      </spdx:PackageVerificationCode>
+                    </spdx:packageVerificationCode>
+                    <spdx:downloadLocation rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                    <spdx:filesAnalyzed>true</spdx:filesAnalyzed>
+                    <spdx:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                    <spdx:description>Starter for building web, including RESTful, applications using Spring
+		MVC. Uses Tomcat as the default embedded container</spdx:description>
+                    <spdx:copyrightText>UNSPECIFIED</spdx:copyrightText>
+                    <spdx:licenseDeclared rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                    <spdx:licenseInfoFromFiles rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                  </spdx:Package>
+                </spdx:relatedSpdxElement>
+                <rdfs:comment>Relationship based on Maven POM file dependency information</rdfs:comment>
+              </spdx:Relationship>
+            </spdx:relationship>
+            <spdx:summary>Demo project for Spring Boot</spdx:summary>
+            <spdx:packageVerificationCode>
+              <spdx:PackageVerificationCode>
+                <spdx:packageVerificationCodeValue>e8f853a6ebe7953ce11f3ce93b4cd55588cc65f4</spdx:packageVerificationCodeValue>
+              </spdx:PackageVerificationCode>
+            </spdx:packageVerificationCode>
+            <spdx:licenseDeclared rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+            <spdx:packageFileName>dependency-demo-spring-boot-226.jar</spdx:packageFileName>
+            <spdx:copyrightText rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+            <spdx:licenseInfoFromFiles rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+            <spdx:hasFile>
+              <spdx:File rdf:about="http://spdx.org/spdxpackages/dependency-demo-spring-boot-226-0.0.1-SNAPSHOT#SPDXRef-4">
+                <spdx:checksum>
+                  <spdx:Checksum>
+                    <spdx:checksumValue>adc83b19e793491b1c6ea0fd8b46cd9f32e592fc</spdx:checksumValue>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1"/>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:fileType rdf:resource="http://spdx.org/rdf/terms#fileType_other"/>
+                <spdx:copyrightText rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                <spdx:licenseInfoInFile rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                <spdx:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                <spdx:relationship>
+                  <spdx:Relationship>
+                    <spdx:relationshipType rdf:resource="http://spdx.org/rdf/terms#relationshipType_containedBy"/>
+                    <spdx:relatedSpdxElement rdf:resource="http://spdx.org/spdxpackages/dependency-demo-spring-boot-226-0.0.1-SNAPSHOT#SPDXRef-1"/>
+                    <rdfs:comment></rdfs:comment>
+                  </spdx:Relationship>
+                </spdx:relationship>
+                <spdx:fileName>./src/main/resources/application.properties</spdx:fileName>
+              </spdx:File>
+            </spdx:hasFile>
+            <spdx:description>Demo project for Spring Boot</spdx:description>
+            <doap:homepage>https://projects.spring.io/spring-boot/#/spring-boot-starter-parent/dependency-demo-spring-boot-226</doap:homepage>
+            <spdx:hasFile>
+              <spdx:File rdf:about="http://spdx.org/spdxpackages/dependency-demo-spring-boot-226-0.0.1-SNAPSHOT#SPDXRef-3">
+                <spdx:checksum>
+                  <spdx:Checksum>
+                    <spdx:checksumValue>0b496c7557b6b53225f618649ca88fbdba7d21a3</spdx:checksumValue>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1"/>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:fileType rdf:resource="http://spdx.org/rdf/terms#fileType_source"/>
+                <spdx:copyrightText rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                <spdx:licenseInfoInFile rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                <spdx:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                <spdx:relationship>
+                  <spdx:Relationship>
+                    <spdx:relationshipType rdf:resource="http://spdx.org/rdf/terms#relationshipType_generates"/>
+                    <spdx:relatedSpdxElement rdf:resource="http://spdx.org/spdxpackages/dependency-demo-spring-boot-226-0.0.1-SNAPSHOT#SPDXRef-1"/>
+                    <rdfs:comment></rdfs:comment>
+                  </spdx:Relationship>
+                </spdx:relationship>
+                <spdx:fileName>./src/main/java/io/github/scolytus/dependencydemospringboot226/DependencyDemoSpringBoot226Application.java</spdx:fileName>
+              </spdx:File>
+            </spdx:hasFile>
+            <spdx:hasFile>
+              <spdx:File rdf:about="http://spdx.org/spdxpackages/dependency-demo-spring-boot-226-0.0.1-SNAPSHOT#SPDXRef-2">
+                <spdx:checksum>
+                  <spdx:Checksum>
+                    <spdx:checksumValue>7e82ccaf18387223450dcae9276fbd7bb5e593ea</spdx:checksumValue>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1"/>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:fileType rdf:resource="http://spdx.org/rdf/terms#fileType_source"/>
+                <spdx:copyrightText rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                <spdx:licenseInfoInFile rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                <spdx:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                <spdx:relationship>
+                  <spdx:Relationship>
+                    <spdx:relationshipType rdf:resource="http://spdx.org/rdf/terms#relationshipType_testcaseOf"/>
+                    <spdx:relatedSpdxElement rdf:resource="http://spdx.org/spdxpackages/dependency-demo-spring-boot-226-0.0.1-SNAPSHOT#SPDXRef-1"/>
+                    <rdfs:comment></rdfs:comment>
+                  </spdx:Relationship>
+                </spdx:relationship>
+                <spdx:fileName>./src/test/java/io/github/scolytus/dependencydemospringboot226/DependencyDemoSpringBoot226ApplicationTests.java</spdx:fileName>
+              </spdx:File>
+            </spdx:hasFile>
+            <spdx:filesAnalyzed>true</spdx:filesAnalyzed>
+            <spdx:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+            <spdx:relationship>
+              <spdx:Relationship>
+                <spdx:relationshipType rdf:resource="http://spdx.org/rdf/terms#relationshipType_dynamicLink"/>
+                <spdx:relatedSpdxElement>
+                  <spdx:Package rdf:about="http://spdx.org/spdxpackages/dependency-demo-spring-boot-226-0.0.1-SNAPSHOT#SPDXRef-7">
+                    <spdx:originator>Organization:The HSQL Development Group</spdx:originator>
+                    <spdx:packageVerificationCode>
+                      <spdx:PackageVerificationCode>
+                        <spdx:packageVerificationCodeValue>cf23df2207d99a74fbe169e3eba035e633b65d94</spdx:packageVerificationCodeValue>
+                      </spdx:PackageVerificationCode>
+                    </spdx:packageVerificationCode>
+                    <doap:homepage>http://hsqldb.org</doap:homepage>
+                    <spdx:copyrightText>UNSPECIFIED</spdx:copyrightText>
+                    <spdx:downloadLocation rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                    <spdx:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                    <spdx:summary>HSQLDB - Lightweight 100% Java SQL Database Engine</spdx:summary>
+                    <spdx:description>HSQLDB - Lightweight 100% Java SQL Database Engine</spdx:description>
+                    <spdx:licenseInfoFromFiles rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                    <spdx:filesAnalyzed>true</spdx:filesAnalyzed>
+                    <spdx:name>HyperSQL Database</spdx:name>
+                    <spdx:versionInfo>2.5.0</spdx:versionInfo>
+                    <spdx:licenseDeclared rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                  </spdx:Package>
+                </spdx:relatedSpdxElement>
+                <rdfs:comment>Relationship based on Maven POM file dependency information</rdfs:comment>
+              </spdx:Relationship>
+            </spdx:relationship>
+            <spdx:relationship>
+              <spdx:Relationship>
+                <spdx:relationshipType rdf:resource="http://spdx.org/rdf/terms#relationshipType_dynamicLink"/>
+                <spdx:relatedSpdxElement>
+                  <spdx:Package rdf:about="http://spdx.org/spdxpackages/dependency-demo-spring-boot-226-0.0.1-SNAPSHOT#SPDXRef-5">
+                    <spdx:summary>Starter for using Spring Data JPA with Hibernate</spdx:summary>
+                    <spdx:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                    <doap:homepage>https://projects.spring.io/spring-boot/#/spring-boot-parent/spring-boot-starters/spring-boot-starter-data-jpa</doap:homepage>
+                    <spdx:copyrightText>UNSPECIFIED</spdx:copyrightText>
+                    <spdx:licenseInfoFromFiles rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                    <spdx:licenseDeclared rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                    <spdx:filesAnalyzed>true</spdx:filesAnalyzed>
+                    <spdx:description>Starter for using Spring Data JPA with Hibernate</spdx:description>
+                    <spdx:originator>Organization:Pivotal Software, Inc.</spdx:originator>
+                    <spdx:name>Spring Boot Data JPA Starter</spdx:name>
+                    <spdx:packageVerificationCode>
+                      <spdx:PackageVerificationCode>
+                        <spdx:packageVerificationCodeValue>cf23df2207d99a74fbe169e3eba035e633b65d94</spdx:packageVerificationCodeValue>
+                      </spdx:PackageVerificationCode>
+                    </spdx:packageVerificationCode>
+                    <spdx:downloadLocation rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                    <spdx:versionInfo>2.2.6.RELEASE</spdx:versionInfo>
+                  </spdx:Package>
+                </spdx:relatedSpdxElement>
+                <rdfs:comment>Relationship based on Maven POM file dependency information</rdfs:comment>
+              </spdx:Relationship>
+            </spdx:relationship>
+            <spdx:downloadLocation rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+            <spdx:checksum>
+              <spdx:Checksum>
+                <spdx:checksumValue>7892b0c0e1b86fb85508fc58b4c33737749863e6</spdx:checksumValue>
+                <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1"/>
+              </spdx:Checksum>
+            </spdx:checksum>
+          </spdx:Package>
+        </spdx:relatedSpdxElement>
+        <rdfs:comment></rdfs:comment>
+      </spdx:Relationship>
+    </spdx:relationship>
+    <spdx:name>dependency-demo-spring-boot-226</spdx:name>
+    <spdx:dataLicense>
+      <spdx:License rdf:about="http://spdx.org/licenses/CC0-1.0">
+        <spdx:standardLicenseTemplate>&lt;&gt; &lt;&gt; Creative Commons&lt;&gt; Legal Code&lt;&gt;&lt;&gt; CC0 1.0 Universal&lt;&gt;&lt;&gt; CREATIVE COMMONS CORPORATION IS NOT A LAW FIRM AND DOES NOT PROVIDE LEGAL SERVICES. DISTRIBUTION OF THIS DOCUMENT DOES NOT CREATE AN ATTORNEY-CLIENT RELATIONSHIP. CREATIVE COMMONS PROVIDES THIS INFORMATION ON AN "AS-IS" BASIS. CREATIVE COMMONS MAKES NO WARRANTIES REGARDING THE USE OF THIS DOCUMENT OR THE INFORMATION OR WORKS PROVIDED HEREUNDER, AND DISCLAIMS LIABILITY FOR DAMAGES RESULTING FROM THE USE OF THIS DOCUMENT OR THE INFORMATION OR WORKS PROVIDED HEREUNDER.&lt;&gt; Statement of Purpose The laws of most jurisdictions throughout the world automatically confer exclusive Copyright and Related Rights (defined below) upon the creator and subsequent owner(s) (each and all, an "owner") of an original work of authorship and/or a database (each, a "Work"). Certain owners wish to permanently relinquish those rights to a Work for the purpose of contributing to a commons of creative, cultural and scientific works ("Commons") that the public can reliably and without fear of later claims of infringement build upon, modify, incorporate in other works, reuse and redistribute as freely as possible in any form whatsoever and for any purposes, including without limitation commercial purposes. These owners may contribute to the Commons to promote the ideal of a free culture and the further production of creative, cultural and scientific works, or to gain reputation or greater distribution for their Work in part through the use and efforts of others. For these and/or other purposes and motivations, and without any expectation of additional consideration or compensation, the person associating CC0 with a Work (the "Affirmer"), to the extent that he or she is an owner of Copyright and Related Rights in the Work, voluntarily elects to apply CC0 to the Work and publicly distribute the Work under its terms, with knowledge of his or her Copyright and Related Rights in the Work and the meaning and intended legal effect of CC0 on those rights. &lt;&gt; Copyright and Related Rights. A Work made available under CC0 may be protected by copyright and related or neighboring rights ("Copyright and Related Rights"). Copyright and Related Rights include, but are not limited to, the following: &lt;&gt; the right to reproduce, adapt, distribute, perform, display, communicate, and translate a Work; &lt;&gt; moral rights retained by the original author(s) and/or performer(s); &lt;&gt; publicity and privacy rights pertaining to a person's image or likeness depicted in a Work; &lt;&gt; rights protecting against unfair competition in regards to a Work, subject to the limitations in paragraph 4(a), below; &lt;&gt; rights protecting the extraction, dissemination, use and reuse of data in a Work; &lt;&gt; database rights (such as those arising under Directive 96/9/EC of the European Parliament and of the Council of 11 March 1996 on the legal protection of databases, and under any national implementation thereof, including any amended or successor version of such directive); and &lt;&gt; other similar, equivalent or corresponding rights throughout the world based on applicable law or treaty, and any national implementations thereof. &lt;&gt; Waiver. To the greatest extent permitted by, but not in contravention of, applicable law, Affirmer hereby overtly, fully, permanently, irrevocably and unconditionally waives, abandons, and surrenders all of Affirmer's Copyright and Related Rights and associated claims and causes of action, whether now known or unknown (including existing as well as future claims and causes of action), in the Work (i) in all territories worldwide, (ii) for the maximum duration provided by applicable law or treaty (including future time extensions), (iii) in any current or future medium and for any number of copies, and (iv) for any purpose whatsoever, including without limitation commercial, advertising or promotional purposes (the "Waiver"). Affirmer makes the Waiver for the benefit of each member of the public at large and to the detriment of Affirmer's heirs and successors, fully intending that such Waiver shall not be subject to revocation, rescission, cancellation, termination, or any other legal or equitable action to disrupt the quiet enjoyment of the Work by the public as contemplated by Affirmer's express Statement of Purpose. &lt;&gt; Public License Fallback. Should any part of the Waiver for any reason be judged legally invalid or ineffective under applicable law, then the Waiver shall be preserved to the maximum extent permitted taking into account Affirmer's express Statement of Purpose. In addition, to the extent the Waiver is so judged Affirmer hereby grants to each affected person a royalty-free, non transferable, non sublicensable, non exclusive, irrevocable and unconditional license to exercise Affirmer's Copyright and Related Rights in the Work (i) in all territories worldwide, (ii) for the maximum duration provided by applicable law or treaty (including future time extensions), (iii) in any current or future medium and for any number of copies, and (iv) for any purpose whatsoever, including without limitation commercial, advertising or promotional purposes (the "License"). The License shall be deemed effective as of the date CC0 was applied by Affirmer to the Work. Should any part of the License for any reason be judged legally invalid or ineffective under applicable law, such partial invalidity or ineffectiveness shall not invalidate the remainder of the License, and in such case Affirmer hereby affirms that he or she will not (i) exercise any of his or her remaining Copyright and Related Rights in the Work or (ii) assert any associated claims and causes of action with respect to the Work, in either case contrary to Affirmer's express Statement of Purpose. &lt;&gt; Limitations and Disclaimers. &lt;&gt; No trademark or patent rights held by Affirmer are waived, abandoned, surrendered, licensed or otherwise affected by this document. &lt;&gt; Affirmer offers the Work as-is and makes no representations or warranties of any kind concerning the Work, express, implied, statutory or otherwise, including without limitation warranties of title, merchantability, fitness for a particular purpose, non infringement, or the absence of latent or other defects, accuracy, or the present or absence of errors, whether or not discoverable, all to the greatest extent permissible under applicable law. &lt;&gt; Affirmer disclaims responsibility for clearing rights of other persons that may apply to the Work or any use thereof, including without limitation any person's Copyright and Related Rights in the Work. Further, Affirmer disclaims responsibility for obtaining any necessary consents, permissions or other rights required for any use of the Work. &lt;&gt; Affirmer understands and acknowledges that Creative Commons is not a party to this document and has no duty or obligation with respect to this CC0 or use of the Work.&lt;&gt; &lt;"&gt;&gt;&lt;&gt;</spdx:standardLicenseTemplate>
+        <spdx:standardLicenseHeader>
+        &lt;p xmlns="http://www.w3.org/1999/xhtml" style="font-style: italic"&gt;There is no standard license header for the license&lt;/p&gt;
+        
+      </spdx:standardLicenseHeader>
+        <spdx:licenseText>
+Creative Commons Legal Code 
+CC0 1.0 Universal 
+CREATIVE COMMONS CORPORATION IS NOT A LAW FIRM AND DOES NOT PROVIDE LEGAL SERVICES. DISTRIBUTION OF THIS DOCUMENT DOES NOT CREATE AN ATTORNEY-CLIENT RELATIONSHIP. CREATIVE COMMONS PROVIDES THIS INFORMATION ON AN "AS-IS" BASIS. CREATIVE COMMONS MAKES NO WARRANTIES REGARDING THE USE OF THIS DOCUMENT OR THE INFORMATION OR WORKS PROVIDED HEREUNDER, AND DISCLAIMS LIABILITY FOR DAMAGES RESULTING FROM THE USE OF THIS DOCUMENT OR THE INFORMATION OR WORKS PROVIDED HEREUNDER. 
+Statement of Purpose 
+The laws of most jurisdictions throughout the world automatically confer exclusive Copyright and Related Rights (defined below) upon the creator and subsequent owner(s) (each and all, an "owner") of an original work of authorship and/or a database (each, a "Work"). 
+Certain owners wish to permanently relinquish those rights to a Work for the purpose of contributing to a commons of creative, cultural and scientific works ("Commons") that the public can reliably and without fear of later claims of infringement build upon, modify, incorporate in other works, reuse and redistribute as freely as possible in any form whatsoever and for any purposes, including without limitation commercial purposes. These owners may contribute to the Commons to promote the ideal of a free culture and the further production of creative, cultural and scientific works, or to gain reputation or greater distribution for their Work in part through the use and efforts of others. 
+For these and/or other purposes and motivations, and without any expectation of additional consideration or compensation, the person associating CC0 with a Work (the "Affirmer"), to the extent that he or she is an owner of Copyright and Related Rights in the Work, voluntarily elects to apply CC0 to the Work and publicly distribute the Work under its terms, with knowledge of his or her Copyright and Related Rights in the Work and the meaning and intended legal effect of CC0 on those rights. 1. Copyright and Related Rights. A Work made available under CC0 may be protected by copyright and related or neighboring rights ("Copyright and Related Rights"). Copyright and Related Rights include, but are not limited to, the following: i. the right to reproduce, adapt, distribute, perform, display, communicate, and translate a Work; ii. moral rights retained by the original author(s) and/or performer(s); iii. publicity and privacy rights pertaining to a person's image or likeness depicted in a Work; iv. rights protecting against unfair competition in regards to a Work, subject to the limitations in paragraph 4(a), below; v. rights protecting the extraction, dissemination, use and reuse of data in a Work; vi. database rights (such as those arising under Directive 96/9/EC of the European Parliament and of the Council of 11 March 1996 on the legal protection of databases, and under any national implementation thereof, including any amended or successor version of such directive); and vii. other similar, equivalent or corresponding rights throughout the world based on applicable law or treaty, and any national implementations thereof. 2. Waiver. To the greatest extent permitted by, but not in contravention of, applicable law, Affirmer hereby overtly, fully, permanently, irrevocably and unconditionally waives, abandons, and surrenders all of Affirmer's Copyright and Related Rights and associated claims and causes of action, whether now known or unknown (including existing as well as future claims and causes of action), in the Work (i) in all territories worldwide, (ii) for the maximum duration provided by applicable law or treaty (including future time extensions), (iii) in any current or future medium and for any number of copies, and (iv) for any purpose whatsoever, including without limitation commercial, advertising or promotional purposes (the "Waiver"). Affirmer makes the Waiver for the benefit of each member of the public at large and to the detriment of Affirmer's heirs and successors, fully intending that such Waiver shall not be subject to revocation, rescission, cancellation, termination, or any other legal or equitable action to disrupt the quiet enjoyment of the Work by the public as contemplated by Affirmer's express Statement of Purpose. 3. Public License Fallback. Should any part of the Waiver for any reason be judged legally invalid or ineffective under applicable law, then the Waiver shall be preserved to the maximum extent permitted taking into account Affirmer's express Statement of Purpose. In addition, to the extent the Waiver is so judged Affirmer hereby grants to each affected person a royalty-free, non transferable, non sublicensable, non exclusive, irrevocable and unconditional license to exercise Affirmer's Copyright and Related Rights in the Work (i) in all territories worldwide, (ii) for the maximum duration provided by applicable law or treaty (including future time extensions), (iii) in any current or future medium and for any number of copies, and (iv) for any purpose whatsoever, including without limitation commercial, advertising or promotional purposes (the "License"). The License shall be deemed effective as of the date CC0 was applied by Affirmer to the Work. Should any part of the License for any reason be judged legally invalid or ineffective under applicable law, such partial invalidity or ineffectiveness shall not invalidate the remainder of the License, and in such case Affirmer hereby affirms that he or she will not (i) exercise any of his or her remaining Copyright and Related Rights in the Work or (ii) assert any associated claims and causes of action with respect to the Work, in either case contrary to Affirmer's express Statement of Purpose. 4. Limitations and Disclaimers. a. No trademark or patent rights held by Affirmer are waived, abandoned, surrendered, licensed or otherwise affected by this document. b. Affirmer offers the Work as-is and makes no representations or warranties of any kind concerning the Work, express, implied, statutory or otherwise, including without limitation warranties of title, merchantability, fitness for a particular purpose, non infringement, or the absence of latent or other defects, accuracy, or the present or absence of errors, whether or not discoverable, all to the greatest extent permissible under applicable law. c. Affirmer disclaims responsibility for clearing rights of other persons that may apply to the Work or any use thereof, including without limitation any person's Copyright and Related Rights in the Work. Further, Affirmer disclaims responsibility for obtaining any necessary consents, permissions or other rights required for any use of the Work. d. Affirmer understands and acknowledges that Creative Commons is not a party to this document and has no duty or obligation with respect to this CC0 or use of the Work.</spdx:licenseText>
+        <rdfs:seeAlso>https://creativecommons.org/publicdomain/zero/1.0/legalcode</rdfs:seeAlso>
+        <spdx:name>Creative Commons Zero v1.0 Universal</spdx:name>
+        <spdx:licenseId>CC0-1.0</spdx:licenseId>
+      </spdx:License>
+    </spdx:dataLicense>
+    <spdx:specVersion>SPDX-2.1</spdx:specVersion>
+    <spdx:creationInfo>
+      <spdx:CreationInfo>
+        <spdx:licenseListVersion>2.0</spdx:licenseListVersion>
+        <spdx:created>2020-04-24T11:33:25Z</spdx:created>
+        <spdx:creator>Tool: spdx-maven-plugin</spdx:creator>
+      </spdx:CreationInfo>
+    </spdx:creationInfo>
+  </spdx:SpdxDocument>
+</rdf:RDF>
