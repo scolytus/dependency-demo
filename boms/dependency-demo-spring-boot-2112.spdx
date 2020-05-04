@@ -2,39 +2,95 @@
     xmlns:spdx="http://spdx.org/rdf/terms#"
     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
     xmlns:doap="http://usefulinc.com/ns/doap#"
-    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-    xmlns="http://spdx.org/spdxpackages/dependency-demo-spring-boot-226-0.0.1-SNAPSHOT#">
-  <spdx:CreationInfo>
-    <spdx:licenseListVersion>3.8</spdx:licenseListVersion>
-    <spdx:created>2020-05-04T16:24:31Z</spdx:created>
-  </spdx:CreationInfo>
+    xmlns="http://spdx.org/spdxpackages/dependency-demo-spring-boot-2112-0.0.1-SNAPSHOT#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
   <spdx:PackageVerificationCode>
     <spdx:packageVerificationCodeValue>cf23df2207d99a74fbe169e3eba035e633b65d94</spdx:packageVerificationCodeValue>
   </spdx:PackageVerificationCode>
-  <spdx:SpdxDocument rdf:about="http://spdx.org/spdxpackages/dependency-demo-spring-boot-226-0.0.1-SNAPSHOT#SPDXRef-DOCUMENT">
+  <spdx:CreationInfo>
+    <spdx:licenseListVersion>3.8</spdx:licenseListVersion>
+    <spdx:created>2020-05-04T16:19:47Z</spdx:created>
+  </spdx:CreationInfo>
+  <spdx:SpdxDocument rdf:about="http://spdx.org/spdxpackages/dependency-demo-spring-boot-2112-0.0.1-SNAPSHOT#SPDXRef-DOCUMENT">
     <spdx:relationship>
       <spdx:Relationship>
         <spdx:relationshipType rdf:resource="http://spdx.org/rdf/terms#relationshipType_describes"/>
         <spdx:relatedSpdxElement>
-          <spdx:Package rdf:about="http://spdx.org/spdxpackages/dependency-demo-spring-boot-226-0.0.1-SNAPSHOT#SPDXRef-1">
-            <spdx:name>dependency-demo-spring-boot-226</spdx:name>
+          <spdx:Package rdf:about="http://spdx.org/spdxpackages/dependency-demo-spring-boot-2112-0.0.1-SNAPSHOT#SPDXRef-1">
+            <spdx:hasFile>
+              <spdx:File rdf:about="http://spdx.org/spdxpackages/dependency-demo-spring-boot-2112-0.0.1-SNAPSHOT#SPDXRef-3">
+                <spdx:checksum>
+                  <spdx:Checksum>
+                    <spdx:checksumValue>adc83b19e793491b1c6ea0fd8b46cd9f32e592fc</spdx:checksumValue>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1"/>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:fileType rdf:resource="http://spdx.org/rdf/terms#fileType_other"/>
+                <spdx:copyrightText>
+                  <spdx:noassertion rdf:about="http://spdx.org/rdf/terms#noassertion"/>
+                </spdx:copyrightText>
+                <spdx:licenseInfoInFile rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                <spdx:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                <spdx:relationship>
+                  <spdx:Relationship>
+                    <spdx:relationshipType rdf:resource="http://spdx.org/rdf/terms#relationshipType_containedBy"/>
+                    <spdx:relatedSpdxElement rdf:resource="http://spdx.org/spdxpackages/dependency-demo-spring-boot-2112-0.0.1-SNAPSHOT#SPDXRef-1"/>
+                    <rdfs:comment></rdfs:comment>
+                  </spdx:Relationship>
+                </spdx:relationship>
+                <spdx:fileName>./src/main/resources/application.properties</spdx:fileName>
+              </spdx:File>
+            </spdx:hasFile>
             <spdx:versionInfo>0.0.1-SNAPSHOT</spdx:versionInfo>
+            <spdx:licenseDeclared rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+            <spdx:packageVerificationCode>
+              <spdx:PackageVerificationCode>
+                <spdx:packageVerificationCodeValue>37311b9369b602e7c89fa26564ebfb78134dab18</spdx:packageVerificationCodeValue>
+              </spdx:PackageVerificationCode>
+            </spdx:packageVerificationCode>
+            <spdx:name>dependency-demo-spring-boot-2112</spdx:name>
+            <spdx:summary>Demo project for Spring Boot</spdx:summary>
+            <spdx:licenseInfoFromFiles rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+            <spdx:downloadLocation rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+            <spdx:filesAnalyzed>true</spdx:filesAnalyzed>
+            <doap:homepage>https://projects.spring.io/spring-boot/#/spring-boot-starter-parent/dependency-demo-spring-boot-2112</doap:homepage>
+            <spdx:description>Demo project for Spring Boot</spdx:description>
+            <spdx:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+            <spdx:hasFile>
+              <spdx:File rdf:about="http://spdx.org/spdxpackages/dependency-demo-spring-boot-2112-0.0.1-SNAPSHOT#SPDXRef-4">
+                <spdx:checksum>
+                  <spdx:Checksum>
+                    <spdx:checksumValue>8c534c52e1285ff0c6d3340298832d3a064145e7</spdx:checksumValue>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1"/>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:fileType rdf:resource="http://spdx.org/rdf/terms#fileType_source"/>
+                <spdx:copyrightText rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                <spdx:licenseInfoInFile rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                <spdx:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                <spdx:relationship>
+                  <spdx:Relationship>
+                    <spdx:relationshipType rdf:resource="http://spdx.org/rdf/terms#relationshipType_generates"/>
+                    <spdx:relatedSpdxElement rdf:resource="http://spdx.org/spdxpackages/dependency-demo-spring-boot-2112-0.0.1-SNAPSHOT#SPDXRef-1"/>
+                    <rdfs:comment></rdfs:comment>
+                  </spdx:Relationship>
+                </spdx:relationship>
+                <spdx:fileName>./src/main/java/io/github/scolytus/dependencydemospringboot2112/DependencyDemoSpringBoot2112Application.java</spdx:fileName>
+              </spdx:File>
+            </spdx:hasFile>
+            <spdx:packageFileName>dependency-demo-spring-boot-2112.jar</spdx:packageFileName>
+            <spdx:checksum>
+              <spdx:Checksum>
+                <spdx:checksumValue>6df26358bc1bbfadaab73bd41ec2853b43385217</spdx:checksumValue>
+                <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1"/>
+              </spdx:Checksum>
+            </spdx:checksum>
             <spdx:relationship>
               <spdx:Relationship>
                 <spdx:relationshipType rdf:resource="http://spdx.org/rdf/terms#relationshipType_dynamicLink"/>
                 <spdx:relatedSpdxElement>
-                  <spdx:Package rdf:about="http://spdx.org/spdxpackages/dependency-demo-spring-boot-226-0.0.1-SNAPSHOT#SPDXRef-5">
-                    <spdx:summary>Starter for using Spring Data JPA with Hibernate</spdx:summary>
-                    <spdx:licenseConcluded>
-                      <spdx:noassertion rdf:about="http://spdx.org/rdf/terms#noassertion"/>
-                    </spdx:licenseConcluded>
-                    <doap:homepage>https://projects.spring.io/spring-boot/#/spring-boot-parent/spring-boot-starters/spring-boot-starter-data-jpa</doap:homepage>
-                    <spdx:copyrightText>UNSPECIFIED</spdx:copyrightText>
-                    <spdx:licenseInfoFromFiles rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
-                    <spdx:description>Starter for using Spring Data JPA with Hibernate</spdx:description>
-                    <spdx:originator>Organization:Pivotal Software, Inc.</spdx:originator>
-                    <spdx:name>Spring Boot Data JPA Starter</spdx:name>
-                    <spdx:filesAnalyzed>false</spdx:filesAnalyzed>
+                  <spdx:Package rdf:about="http://spdx.org/spdxpackages/dependency-demo-spring-boot-2112-0.0.1-SNAPSHOT#SPDXRef-5">
+                    <spdx:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
                     <spdx:licenseDeclared>
                       <spdx:License rdf:about="http://spdx.org/licenses/Apache-2.0">
                         <rdfs:comment>This license was released January 2004</rdfs:comment>
@@ -182,150 +238,51 @@ limitations under the License.</spdx:standardLicenseHeaderTemplate>
                         <spdx:isOsiApproved>true</spdx:isOsiApproved>
                       </spdx:License>
                     </spdx:licenseDeclared>
-                    <spdx:downloadLocation rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
-                    <spdx:versionInfo>2.2.6.RELEASE</spdx:versionInfo>
-                  </spdx:Package>
-                </spdx:relatedSpdxElement>
-                <rdfs:comment>Relationship based on Maven POM file dependency information</rdfs:comment>
-              </spdx:Relationship>
-            </spdx:relationship>
-            <spdx:relationship>
-              <spdx:Relationship>
-                <spdx:relationshipType rdf:resource="http://spdx.org/rdf/terms#relationshipType_dynamicLink"/>
-                <spdx:relatedSpdxElement>
-                  <spdx:Package rdf:about="http://spdx.org/spdxpackages/dependency-demo-spring-boot-226-0.0.1-SNAPSHOT#SPDXRef-6">
-                    <spdx:name>Spring Boot Web Starter</spdx:name>
-                    <spdx:summary>Starter for building web, including RESTful, applications using Spring
-		MVC. Uses Tomcat as the default embedded container</spdx:summary>
-                    <spdx:originator>Organization:Pivotal Software, Inc.</spdx:originator>
-                    <doap:homepage>https://projects.spring.io/spring-boot/#/spring-boot-parent/spring-boot-starters/spring-boot-starter-web</doap:homepage>
-                    <spdx:versionInfo>2.2.6.RELEASE</spdx:versionInfo>
-                    <spdx:downloadLocation rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
-                    <spdx:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
-                    <spdx:description>Starter for building web, including RESTful, applications using Spring
-		MVC. Uses Tomcat as the default embedded container</spdx:description>
-                    <spdx:filesAnalyzed>false</spdx:filesAnalyzed>
+                    <spdx:summary>Core starter, including auto-configuration support, logging and YAML</spdx:summary>
                     <spdx:copyrightText>UNSPECIFIED</spdx:copyrightText>
-                    <spdx:licenseDeclared rdf:resource="http://spdx.org/licenses/Apache-2.0"/>
+                    <spdx:versionInfo>2.1.12.RELEASE</spdx:versionInfo>
+                    <spdx:downloadLocation rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                    <spdx:description>Core starter, including auto-configuration support, logging and YAML</spdx:description>
+                    <doap:homepage>https://projects.spring.io/spring-boot/#/spring-boot-parent/spring-boot-starters/spring-boot-starter</doap:homepage>
                     <spdx:licenseInfoFromFiles rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                    <spdx:name>Spring Boot Starter</spdx:name>
+                    <spdx:filesAnalyzed>false</spdx:filesAnalyzed>
+                    <spdx:originator>Organization:Pivotal Software, Inc.</spdx:originator>
                   </spdx:Package>
                 </spdx:relatedSpdxElement>
                 <rdfs:comment>Relationship based on Maven POM file dependency information</rdfs:comment>
               </spdx:Relationship>
             </spdx:relationship>
-            <spdx:summary>Demo project for Spring Boot</spdx:summary>
-            <spdx:licenseDeclared rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
-            <spdx:packageFileName>dependency-demo-spring-boot-226.jar</spdx:packageFileName>
             <spdx:copyrightText rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
             <spdx:relationship>
               <spdx:Relationship>
                 <spdx:relationshipType rdf:resource="http://spdx.org/rdf/terms#relationshipType_testcaseOf"/>
                 <spdx:relatedSpdxElement>
-                  <spdx:Package rdf:about="http://spdx.org/spdxpackages/dependency-demo-spring-boot-226-0.0.1-SNAPSHOT#SPDXRef-8">
-                    <spdx:originator>Organization:Pivotal Software, Inc.</spdx:originator>
-                    <doap:homepage>https://projects.spring.io/spring-boot/#/spring-boot-parent/spring-boot-starters/spring-boot-starter-test</doap:homepage>
-                    <spdx:filesAnalyzed>false</spdx:filesAnalyzed>
-                    <spdx:downloadLocation rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
-                    <spdx:versionInfo>2.2.6.RELEASE</spdx:versionInfo>
-                    <spdx:copyrightText>UNSPECIFIED</spdx:copyrightText>
+                  <spdx:Package rdf:about="http://spdx.org/spdxpackages/dependency-demo-spring-boot-2112-0.0.1-SNAPSHOT#SPDXRef-6">
+                    <spdx:licenseInfoFromFiles rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
                     <spdx:summary>Starter for testing Spring Boot applications with libraries including
 		JUnit, Hamcrest and Mockito</spdx:summary>
-                    <spdx:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
-                    <spdx:licenseDeclared rdf:resource="http://spdx.org/licenses/Apache-2.0"/>
-                    <spdx:description>Starter for testing Spring Boot applications with libraries including
-		JUnit, Hamcrest and Mockito</spdx:description>
-                    <spdx:licenseInfoFromFiles rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                    <doap:homepage>https://projects.spring.io/spring-boot/#/spring-boot-parent/spring-boot-starters/spring-boot-starter-test</doap:homepage>
                     <spdx:name>Spring Boot Test Starter</spdx:name>
-                  </spdx:Package>
-                </spdx:relatedSpdxElement>
-                <rdfs:comment>Relationship based on Maven POM file dependency information</rdfs:comment>
-              </spdx:Relationship>
-            </spdx:relationship>
-            <spdx:relationship>
-              <spdx:Relationship>
-                <spdx:relationshipType rdf:resource="http://spdx.org/rdf/terms#relationshipType_dynamicLink"/>
-                <spdx:relatedSpdxElement>
-                  <spdx:Package rdf:about="http://spdx.org/spdxpackages/dependency-demo-spring-boot-226-0.0.1-SNAPSHOT#SPDXRef-7">
-                    <spdx:originator>Organization:The HSQL Development Group</spdx:originator>
-                    <doap:homepage>http://hsqldb.org</doap:homepage>
-                    <spdx:copyrightText>UNSPECIFIED</spdx:copyrightText>
+                    <spdx:versionInfo>2.1.12.RELEASE</spdx:versionInfo>
                     <spdx:filesAnalyzed>false</spdx:filesAnalyzed>
                     <spdx:downloadLocation rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
                     <spdx:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
-                    <spdx:summary>HSQLDB - Lightweight 100% Java SQL Database Engine</spdx:summary>
-                    <spdx:description>HSQLDB - Lightweight 100% Java SQL Database Engine</spdx:description>
-                    <spdx:licenseInfoFromFiles rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
-                    <spdx:name>HyperSQL Database</spdx:name>
-                    <spdx:versionInfo>2.5.0</spdx:versionInfo>
-                    <spdx:licenseDeclared rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                    <spdx:licenseDeclared rdf:resource="http://spdx.org/licenses/Apache-2.0"/>
+                    <spdx:originator>Organization:Pivotal Software, Inc.</spdx:originator>
+                    <spdx:description>Starter for testing Spring Boot applications with libraries including
+		JUnit, Hamcrest and Mockito</spdx:description>
+                    <spdx:copyrightText>UNSPECIFIED</spdx:copyrightText>
                   </spdx:Package>
                 </spdx:relatedSpdxElement>
                 <rdfs:comment>Relationship based on Maven POM file dependency information</rdfs:comment>
               </spdx:Relationship>
             </spdx:relationship>
-            <spdx:licenseInfoFromFiles rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
             <spdx:hasFile>
-              <spdx:File rdf:about="http://spdx.org/spdxpackages/dependency-demo-spring-boot-226-0.0.1-SNAPSHOT#SPDXRef-4">
+              <spdx:File rdf:about="http://spdx.org/spdxpackages/dependency-demo-spring-boot-2112-0.0.1-SNAPSHOT#SPDXRef-2">
                 <spdx:checksum>
                   <spdx:Checksum>
-                    <spdx:checksumValue>adc83b19e793491b1c6ea0fd8b46cd9f32e592fc</spdx:checksumValue>
-                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1"/>
-                  </spdx:Checksum>
-                </spdx:checksum>
-                <spdx:fileType rdf:resource="http://spdx.org/rdf/terms#fileType_other"/>
-                <spdx:copyrightText rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
-                <spdx:licenseInfoInFile rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
-                <spdx:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
-                <spdx:relationship>
-                  <spdx:Relationship>
-                    <spdx:relationshipType rdf:resource="http://spdx.org/rdf/terms#relationshipType_containedBy"/>
-                    <spdx:relatedSpdxElement rdf:resource="http://spdx.org/spdxpackages/dependency-demo-spring-boot-226-0.0.1-SNAPSHOT#SPDXRef-1"/>
-                    <rdfs:comment></rdfs:comment>
-                  </spdx:Relationship>
-                </spdx:relationship>
-                <spdx:fileName>./src/main/resources/application.properties</spdx:fileName>
-              </spdx:File>
-            </spdx:hasFile>
-            <spdx:description>Demo project for Spring Boot</spdx:description>
-            <doap:homepage>https://projects.spring.io/spring-boot/#/spring-boot-starter-parent/dependency-demo-spring-boot-226</doap:homepage>
-            <spdx:hasFile>
-              <spdx:File rdf:about="http://spdx.org/spdxpackages/dependency-demo-spring-boot-226-0.0.1-SNAPSHOT#SPDXRef-3">
-                <spdx:checksum>
-                  <spdx:Checksum>
-                    <spdx:checksumValue>0b496c7557b6b53225f618649ca88fbdba7d21a3</spdx:checksumValue>
-                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1"/>
-                  </spdx:Checksum>
-                </spdx:checksum>
-                <spdx:fileType rdf:resource="http://spdx.org/rdf/terms#fileType_source"/>
-                <spdx:copyrightText rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
-                <spdx:licenseInfoInFile rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
-                <spdx:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
-                <spdx:relationship>
-                  <spdx:Relationship>
-                    <spdx:relationshipType rdf:resource="http://spdx.org/rdf/terms#relationshipType_generates"/>
-                    <spdx:relatedSpdxElement rdf:resource="http://spdx.org/spdxpackages/dependency-demo-spring-boot-226-0.0.1-SNAPSHOT#SPDXRef-1"/>
-                    <rdfs:comment></rdfs:comment>
-                  </spdx:Relationship>
-                </spdx:relationship>
-                <spdx:fileName>./src/main/java/io/github/scolytus/dependencydemospringboot226/DependencyDemoSpringBoot226Application.java</spdx:fileName>
-              </spdx:File>
-            </spdx:hasFile>
-            <spdx:packageVerificationCode>
-              <spdx:PackageVerificationCode>
-                <spdx:packageVerificationCodeValue>e8f853a6ebe7953ce11f3ce93b4cd55588cc65f4</spdx:packageVerificationCodeValue>
-              </spdx:PackageVerificationCode>
-            </spdx:packageVerificationCode>
-            <spdx:checksum>
-              <spdx:Checksum>
-                <spdx:checksumValue>3d38268e6155f29e09b2ab781946f4e82bb5bd6e</spdx:checksumValue>
-                <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1"/>
-              </spdx:Checksum>
-            </spdx:checksum>
-            <spdx:hasFile>
-              <spdx:File rdf:about="http://spdx.org/spdxpackages/dependency-demo-spring-boot-226-0.0.1-SNAPSHOT#SPDXRef-2">
-                <spdx:checksum>
-                  <spdx:Checksum>
-                    <spdx:checksumValue>7e82ccaf18387223450dcae9276fbd7bb5e593ea</spdx:checksumValue>
+                    <spdx:checksumValue>3db6a61208d0e4e0b0bd8cc7bcaa2cb52f6264bc</spdx:checksumValue>
                     <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1"/>
                   </spdx:Checksum>
                 </spdx:checksum>
@@ -336,22 +293,19 @@ limitations under the License.</spdx:standardLicenseHeaderTemplate>
                 <spdx:relationship>
                   <spdx:Relationship>
                     <spdx:relationshipType rdf:resource="http://spdx.org/rdf/terms#relationshipType_testcaseOf"/>
-                    <spdx:relatedSpdxElement rdf:resource="http://spdx.org/spdxpackages/dependency-demo-spring-boot-226-0.0.1-SNAPSHOT#SPDXRef-1"/>
+                    <spdx:relatedSpdxElement rdf:resource="http://spdx.org/spdxpackages/dependency-demo-spring-boot-2112-0.0.1-SNAPSHOT#SPDXRef-1"/>
                     <rdfs:comment></rdfs:comment>
                   </spdx:Relationship>
                 </spdx:relationship>
-                <spdx:fileName>./src/test/java/io/github/scolytus/dependencydemospringboot226/DependencyDemoSpringBoot226ApplicationTests.java</spdx:fileName>
+                <spdx:fileName>./src/test/java/io/github/scolytus/dependencydemospringboot2112/DependencyDemoSpringBoot2112ApplicationTests.java</spdx:fileName>
               </spdx:File>
             </spdx:hasFile>
-            <spdx:filesAnalyzed>true</spdx:filesAnalyzed>
-            <spdx:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
-            <spdx:downloadLocation rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
           </spdx:Package>
         </spdx:relatedSpdxElement>
         <rdfs:comment></rdfs:comment>
       </spdx:Relationship>
     </spdx:relationship>
-    <spdx:name>dependency-demo-spring-boot-226</spdx:name>
+    <spdx:name>dependency-demo-spring-boot-2112</spdx:name>
     <spdx:dataLicense>
       <spdx:License rdf:about="http://spdx.org/licenses/CC0-1.0">
         <spdx:standardLicenseTemplate>&lt;&lt;beginOptional&gt;&gt; &lt;&lt;beginOptional&gt;&gt; Creative Commons&lt;&lt;beginOptional&gt;&gt; Legal Code&lt;&lt;endOptional&gt;&gt;&lt;&lt;endOptional&gt;&gt;
@@ -406,7 +360,7 @@ For these and/or other purposes and motivations, and without any expectation of 
     <spdx:creationInfo>
       <spdx:CreationInfo>
         <spdx:licenseListVersion>3.1</spdx:licenseListVersion>
-        <spdx:created>2020-05-04T16:24:34Z</spdx:created>
+        <spdx:created>2020-05-04T16:19:50Z</spdx:created>
         <spdx:creator>Tool: spdx-maven-plugin</spdx:creator>
       </spdx:CreationInfo>
     </spdx:creationInfo>
