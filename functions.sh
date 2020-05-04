@@ -48,3 +48,6 @@ __HERE__
        -d @"${FILE}" &> /dev/null
 }
 
+getTimestamp() {
+  echo "$(date +%Y%m%d-%H%M%S)"
+}

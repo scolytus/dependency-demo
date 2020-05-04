@@ -26,4 +26,3 @@ for i in ./dependency-demo-spring-boot-*; do
 
   popd
 done
-
